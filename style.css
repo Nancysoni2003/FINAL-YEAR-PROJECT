@@ -1,0 +1,199 @@
+/* General Utility Classes */
+.min-h-screen {
+    min-height: 100vh;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex {
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.font-bold {
+    font-weight: bolder;
+}
+.text-blue {
+    color: rgb(227, 74, 56);
+}
+.text-center {
+    text-align: center;
+}
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.my-2 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+/* Button */
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227, 74, 56);
+}
+
+/* Header and Navigation */
+.navbar {
+    list-style: none;
+}
+.navbar li {
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+/* Section 1 */
+.section1 {
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+.topleft {
+    flex: 1;
+    padding: 20px;
+}
+.topright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dumbellimg {
+    width: 100%;
+    max-width: 250px;
+}
+.gymimg {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Deal text */
+.deal {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+/* Buttons Section */
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0;
+}
+
+/* Section 2 - Pricing */
+.section2 {
+    padding: 73px 20px;
+    background-color: #f9f9f9;
+}
+.section2 h1 {
+    font-size: 2.3rem;
+}
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+.boxes {
+    flex-wrap: wrap;
+}
+.box {
+    padding: 20px;
+    margin: 12px 22px;
+    min-width: 250px;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.box ul {
+    list-style-type: none;
+    padding: 0;
+}
+.box ul li {
+    margin: 12px 0;
+}
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Section 3 - Compare Plans */
+.section3 {
+    padding: 73px 20px;
+    background-color: #ffffff;
+}
+.section3 h1 {
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+}
+.plantable {
+    display: block; /* No flex needed */
+}
+.section3 table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+.section3 table th,
+.section3 table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.section3 table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+.text-start {
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    padding: 23px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+    .section3 table {
+        width: 100%;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+}
